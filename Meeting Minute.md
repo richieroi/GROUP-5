@@ -5,6 +5,7 @@ Time: 2:0
 Location: Discussion Room, Library First Floor  
 Attendees: 9 people
 
+
 Agenda: We were introduced to GitHub by Emmanuel, and we were taught basic things such as creating a repository, cloning etc.
 We also started a discussion on the general overview and appearance our work. The points below basically talks about what we discussed and decided on. These points also show the sequence for our pages, that is, for our website.
 
