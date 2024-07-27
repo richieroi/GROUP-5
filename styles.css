@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*This section is for the navigation bar*/
+.nav {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 100px;
+  align-items: center;
+}
+
+.nav-brand a {
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-inline: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 17px;
+}
+
+.nav-links button {
+  background-color: lightblue;
+  border: 2px solid lightblue;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.nav-links button a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-links button:hover {
+  background-color: transparent;
+  transition: all 0.6s ease-in-out;
+}
+
+.nav-links li a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  transition: all 0.6s ease-out;
+}
+
+/* The section for the intro */
+.introduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-flow: column wrap;
+  padding: 20px 100px;
+}
+.introduction h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.introduction p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.introduction button {
+  background-color: lightblue;
+  padding: 10px;
+  border: 2px solid lightblue;
+  border-radius: 20px;
+}
+
+.introduction button a {
+  text-decoration: none;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+.introduction button:hover {
+  background-color: transparent;
+  transition: all 0.6s ease-in-out;
+}
